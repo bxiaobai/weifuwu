@@ -25,6 +25,7 @@ public class LoginController {
     @GetMapping("/user")
     public CommonResult login(@RequestParam("name") String name , @RequestParam("password") String password){
         return userService.login(name,password);
+
     }
 
 }

@@ -27,6 +27,7 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User>
     @Resource
     UserMapper userMapper;
 
+
     @Resource
     private StringRedisTemplate stringRedisTemplate;
 
@@ -36,6 +37,7 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User>
 
         log.info("登录请求进行中..........................");
         User user = query().eq("name", name).one();
+
 
 
         if (user == null){

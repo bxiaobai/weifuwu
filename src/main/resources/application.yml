@@ -42,6 +42,7 @@ dubbo:
     # 配置需要扫描的注解包
     base-packages: com.example.loginserviceone
 #
+
 #
 #seata:
 #  # 注册中心配置

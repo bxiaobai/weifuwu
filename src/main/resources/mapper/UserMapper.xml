@@ -21,6 +21,7 @@
             <result property="appId" column="app_id" jdbcType="VARCHAR"/>
     </resultMap>
 
+
     <sql id="Base_Column_List">
         id,user_id,name,
         email,address,password,
